@@ -1,0 +1,32 @@
+{
+    "licenser.license": "WTFPL",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".dart_tool": true,
+        "**/*.iml": true,
+        ".packages": true,
+        ".metadata": true,
+        "web": true,
+        "build": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "source.fixAll": true,
+    },
+    "triggerTaskOnSave.tasks": {
+        "Build Runner: build": [
+            "lib/**/*.dart",
+        ],
+    },
+    "triggerTaskOnSave.resultIndicator": "statusBar.background",
+    "triggerTaskOnSave.failureColour": "#c62828",
+    "triggerTaskOnSave.successColour": "#2e7d32",
+    "triggerTaskOnSave.showNotifications": true,
+    "workbench.colorCustomizations": {},
+    "explorerExclude.backup": null,
+}
